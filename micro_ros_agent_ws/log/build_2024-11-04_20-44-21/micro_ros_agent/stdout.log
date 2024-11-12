@@ -1,0 +1,11 @@
+[  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+Current branch ros2 is up to date.
+[ 12%] [34m[1mPerforming configure step for 'xrceagent'[0m
+loading initial cache file /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[ 18%] [34m[1mPerforming build step for 'xrceagent'[0m
+[  6%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+-- Had to git clone more than once:
+          3 times.

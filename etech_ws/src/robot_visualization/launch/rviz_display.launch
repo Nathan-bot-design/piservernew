@@ -1,0 +1,5 @@
+<launch>
+  <!-- Launch RViz with the robot model -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find robot_visualization)/urdf/robot.urdf'" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robot_visualization)/rviz/hector_display.rviz" output="screen"/>
+</launch>

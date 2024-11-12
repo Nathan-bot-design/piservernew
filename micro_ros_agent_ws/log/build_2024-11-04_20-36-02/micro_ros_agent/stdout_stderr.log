@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/micro_ros_agent_ws/build/micro_ros_agent
+[35m[1mScanning dependencies of target xrceagent[0m
+[  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+Cloning into 'xrceagent'...
+Switched to a new branch 'ros2'
+Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[ 18%] [34m[1mNo patch step for 'xrceagent'[0m
+[ 25%] [34m[1mPerforming update step for 'xrceagent'[0m
+Current branch ros2 is up to date.
+[ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+loading initial cache file /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+-- The C compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[35m[1mScanning dependencies of target spdlog[0m
+[  6%] [34m[1mCreating directories for 'spdlog'[0m
+[ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+Cloning into 'spdlog'...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Cloning into 'spdlog'...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Cloning into 'spdlog'...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+-- Had to git clone more than once:
+          3 times.
+CMake Error at /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake:31 (message):
+  Failed to clone repository: 'https://github.com/gabime/spdlog.git'
+
+
+make[5]: *** [CMakeFiles/spdlog.dir/build.make:91: spdlog/src/spdlog-stamp/spdlog-download] Error 1
+make[4]: *** [CMakeFiles/Makefile2:105: CMakeFiles/spdlog.dir/all] Error 2
+make[3]: *** [Makefile:84: all] Error 2
+make[2]: *** [CMakeFiles/xrceagent.dir/build.make:112: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/xrceagent.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2

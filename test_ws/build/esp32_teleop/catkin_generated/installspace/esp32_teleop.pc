@@ -1,0 +1,8 @@
+prefix=/home/pi/test_ws/install
+
+Name: esp32_teleop
+Description: Description of esp32_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

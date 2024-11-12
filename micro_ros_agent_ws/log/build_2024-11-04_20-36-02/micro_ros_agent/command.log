@@ -1,0 +1,4 @@
+Invoking command in '/home/pi/micro_ros_agent_ws/build/micro_ros_agent': /usr/bin/cmake /home/pi/micro_ros_agent_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/pi/micro_ros_agent_ws/install/micro_ros_agent
+Invoked command in '/home/pi/micro_ros_agent_ws/build/micro_ros_agent' returned '0': /usr/bin/cmake /home/pi/micro_ros_agent_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/pi/micro_ros_agent_ws/install/micro_ros_agent
+Invoking command in '/home/pi/micro_ros_agent_ws/build/micro_ros_agent': /usr/bin/cmake --build /home/pi/micro_ros_agent_ws/build/micro_ros_agent -- -j4 -l4
+Invoked command in '/home/pi/micro_ros_agent_ws/build/micro_ros_agent' returned '2': /usr/bin/cmake --build /home/pi/micro_ros_agent_ws/build/micro_ros_agent -- -j4 -l4

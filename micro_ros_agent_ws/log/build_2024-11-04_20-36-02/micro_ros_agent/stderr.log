@@ -1,0 +1,24 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'ros2'
+Cloning into 'spdlog'...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Cloning into 'spdlog'...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+Cloning into 'spdlog'...
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+CMake Error at /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake:31 (message):
+  Failed to clone repository: 'https://github.com/gabime/spdlog.git'
+
+
+make[5]: *** [CMakeFiles/spdlog.dir/build.make:91: spdlog/src/spdlog-stamp/spdlog-download] Error 1
+make[4]: *** [CMakeFiles/Makefile2:105: CMakeFiles/spdlog.dir/all] Error 2
+make[3]: *** [Makefile:84: all] Error 2
+make[2]: *** [CMakeFiles/xrceagent.dir/build.make:112: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/xrceagent.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2

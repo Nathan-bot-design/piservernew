@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="mpu6050_sensor" type="mpu6050_listener.py" name="mpu6050_listener" output="screen" />
+</launch>
+
+

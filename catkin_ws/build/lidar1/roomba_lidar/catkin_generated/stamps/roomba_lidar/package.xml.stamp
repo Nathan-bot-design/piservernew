@@ -1,0 +1,26 @@
+<package format="2">
+  <name>roomba_lidar</name>
+  <version>0.0.1</version>
+  <description>The Iliasam Laser LIDAR Driver.</description>
+  <maintainer email="your_email@example.com">Eric Perko, Chad Rockey, iliasam</maintainer>
+  <license>BSD</license>
+  <url type="website">no</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>boost</build_depend> <!-- If you need Boost libraries -->
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>boost</exec_depend> <!-- If Boost is required at runtime -->
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
+
+
+

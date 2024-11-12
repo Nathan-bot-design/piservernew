@@ -1,0 +1,37 @@
+[0.037s] Invoking command in '/home/pi/micro_ros_agent_ws/build/micro_ros_agent': /usr/bin/cmake --build /home/pi/micro_ros_agent_ws/build/micro_ros_agent -- -j4 -l4
+[0.220s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[1.189s] Current branch ros2 is up to date.
+[1.343s] [ 12%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[1.374s] loading initial cache file /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[1.600s] -- Configuring done
+[1.616s] -- Generating done
+[1.620s] -- Build files have been written to: /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[1.684s] [ 18%] [34m[1mPerforming build step for 'xrceagent'[0m
+[1.833s] [  6%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[1.901s] Cloning into 'spdlog'...
+[79.068s] fatal: the remote end hung up unexpectedly
+[79.069s] fatal: early EOF
+[79.069s] fatal: index-pack failed
+[79.090s] Cloning into 'spdlog'...
+[177.147s] error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+[177.148s] fatal: the remote end hung up unexpectedly
+[177.149s] fatal: early EOF
+[177.150s] fatal: index-pack failed
+[177.169s] Cloning into 'spdlog'...
+[366.711s] error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+[366.712s] fatal: the remote end hung up unexpectedly
+[366.713s] fatal: early EOF
+[366.715s] fatal: index-pack failed
+[366.730s] -- Had to git clone more than once:
+[366.731s]           3 times.
+[366.731s] CMake Error at /home/pi/micro_ros_agent_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-gitclone.cmake:31 (message):
+[366.732s]   Failed to clone repository: 'https://github.com/gabime/spdlog.git'
+[366.732s] 
+[366.733s] 
+[366.734s] make[5]: *** [CMakeFiles/spdlog.dir/build.make:91: spdlog/src/spdlog-stamp/spdlog-download] Error 1
+[366.734s] make[4]: *** [CMakeFiles/Makefile2:105: CMakeFiles/spdlog.dir/all] Error 2
+[366.735s] make[3]: *** [Makefile:84: all] Error 2
+[366.736s] make[2]: *** [CMakeFiles/xrceagent.dir/build.make:112: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+[366.737s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/xrceagent.dir/all] Error 2
+[366.737s] make: *** [Makefile:84: all] Error 2
+[366.744s] Invoked command in '/home/pi/micro_ros_agent_ws/build/micro_ros_agent' returned '2': /usr/bin/cmake --build /home/pi/micro_ros_agent_ws/build/micro_ros_agent -- -j4 -l4

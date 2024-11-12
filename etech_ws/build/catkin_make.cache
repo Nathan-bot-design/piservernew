@@ -1,0 +1,2 @@
+mpu6050_sensor:robot_localization:robot_visualization:ultrasonic_sensor
+-DCATKIN_DEVEL_PREFIX=/home/pi/etech_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/etech_ws/install -G Unix Makefiles

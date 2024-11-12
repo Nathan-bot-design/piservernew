@@ -1,0 +1,2 @@
+esp32_control:esp32_sensors:esp_now_teleop:lidar1/roomba_lidar
+-DCATKIN_DEVEL_PREFIX=/home/pi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/catkin_ws/install -G Unix Makefiles

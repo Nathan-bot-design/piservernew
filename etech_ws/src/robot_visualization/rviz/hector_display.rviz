@@ -1,0 +1,45 @@
+Visualization Manager:
+  Displays:
+    - Class: rviz/Grid
+      Name: Grid
+      Enabled: true
+      Reference Frame: map
+      Plane Cell Count: 20
+      Cell Size: 1.0
+      Line Style: Lines
+      Color: 160; 160; 160
+      Alpha: 0.5
+
+    - Class: rviz/RobotModel
+      Name: Robot Model
+      Robot Description: robot_description
+      Enabled: true
+
+    - Class: rviz/Axes
+      Name: Axes
+      Enabled: true
+      Length: 1.0
+      Radius: 0.05
+
+    - Class: rviz/Map
+      Name: Map
+      Topic: /map
+      Enabled: true
+      Alpha: 0.7
+      Color Scheme: costmap
+
+    - Class: rviz/Odometry
+      Name: Odometry
+      Topic: /odom
+      Enabled: true
+      Color: 0.1; 0.8; 0.1
+      Position Tolerance: 0.1
+      Angle Tolerance: 0.1
+
+    - Class: rviz/Marker
+      Name: Obstacle Distance
+      Topic: /obstacle_marker
+      Enabled: true
+      Alpha: 0.8
+      Color: 1.0; 0.0; 0.0
+

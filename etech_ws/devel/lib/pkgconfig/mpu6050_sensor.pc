@@ -1,0 +1,8 @@
+prefix=/home/pi/etech_ws/devel
+
+Name: mpu6050_sensor
+Description: Description of mpu6050_sensor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

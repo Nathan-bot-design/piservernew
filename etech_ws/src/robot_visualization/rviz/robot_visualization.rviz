@@ -1,0 +1,15 @@
+# This sets up RViz to show the robot orientation and ultrasonic sensor data.
+Displays:
+  - Name: Yaw Orientation
+    Type: "Float32"  # Display orientation
+    Topic: "/mpu6050/yaw"
+
+  - Name: Teleop
+    Type: "Twist"  # Display teleop control
+    Topic: "/cmd_vel"
+
+  - Name: Ultrasonic Distance
+    Type: "Range"  # Display obstacle distance
+    Topic: "/ultrasonic/distance"
+    Alpha: 1.0
+    Color: "255;0;0"  # Red color for close obstacles
